@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  max-width: 600px;
+  margin: auto;
+  border: 2px solid #222;
+  background: #111;
+  color: white;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background: black;
+}
+
+.header .logo {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.chatbox {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.message {
+  margin-bottom: 8px;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.user {
+  background: #222;
+  text-align: right;
+}
+
+.bot {
+  background: #333;
+  text-align: left;
+  font-style: italic;
+}
+
+.inputBox {
+  display: flex;
+  padding: 10px;
+  background: #000;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  font-size: 16px;
+}
+
+button {
+  padding: 8px 12px;
+  margin-left: 8px;
+  background: #444;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
