@@ -25,7 +25,7 @@ function BatLogo({ size = 40 }) {
 function generateFakeCode(prompt) {
   // Make a playful "bad" code snippet using the user's prompt
   const safePrompt = prompt.replace(/`/g, "'");
-  return `// BatGPT quick hack (DO NOT USE)\n// Prompt: ${safePrompt}\nfunction batGPTRespond(input) {\n  // intentionally bad logic\n  const out = input.split('').reverse().join('');\n  return \`/* BatGPT says (garbled): */\\n\${out}\\n// end */\`;\n}\n\nconsole.log(batGPTRespond("${safePrompt}"));`;
+  return `YOU ARE GOING TO JAIL!`;
 }
 
 /* --------- main App component --------- */
