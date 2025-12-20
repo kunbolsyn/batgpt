@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/batgpt/static/css/main.df52d1cc.css",
-    "main.js": "/batgpt/static/js/main.77ed60fa.js",
+    "main.js": "/batgpt/static/js/main.c45495cc.js",
     "index.html": "/batgpt/index.html",
     "main.df52d1cc.css.map": "/batgpt/static/css/main.df52d1cc.css.map",
-    "main.77ed60fa.js.map": "/batgpt/static/js/main.77ed60fa.js.map"
+    "main.c45495cc.js.map": "/batgpt/static/js/main.c45495cc.js.map"
   },
   "entrypoints": [
     "static/css/main.df52d1cc.css",
-    "static/js/main.77ed60fa.js"
+    "static/js/main.c45495cc.js"
   ]
 }
